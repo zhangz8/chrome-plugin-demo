@@ -17,8 +17,8 @@
 	"content_scripts": 
 	[
 		{
-			"matches": ["https://www.jianshu.com/*"],
-			"js": ["jquery-1.8.3.js", "content-script.js"]
+			"matches": ["https://www.jianshu.com/*", "https://mp.weixin.qq.com/*"],
+			"js": ["jquery-1.8.3.js", "layer/layer.js", "content-script.js"]
 		}
 	],
 	"web_accessible_resources": 
